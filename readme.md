@@ -30,8 +30,8 @@ A repository for launching laboratories.
 <!-- MarkdownTOC autolink=true -->
 
 - [Launching this laboratory on a binderhub instance](#launching-this-laboratory-on-a-binderhub-instance)
-  - [Jupyter](#jupyter)
   - [JupyterLab](#jupyterlab)
+  - [Jupyter](#jupyter)
   - [Rstudio](#rstudio)
   - [Shiny](#shiny)
   - [Nteract](#nteract)
@@ -65,6 +65,17 @@ The list below contains the known binderhub instances.
 The list below provides the badges and the hyperlinks for launching one of the specific interfaces in one of the binderhub instances.
     
 
+#### JupyterLab 
+  
+  - [![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-dataviz/master?urlpath=lab)
+
+  - [![launch @ ovh.mybinder.org][badge-jupyterlab-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-dataviz/master?urlpath=lab)
+
+  - [![launch @ gesis.org][badge-jupyterlab-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-dataviz/master?urlpath=lab)
+
+  - [![launch @ pangeo.io][badge-jupyterlab-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-dataviz/master?urlpath=lab)
+
+
 #### Jupyter 
   
   - [![launch @ gke.mybinder.org][badge-jupyter-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-dataviz/master?urlpath=tree)
@@ -76,15 +87,6 @@ The list below provides the badges and the hyperlinks for launching one of the s
   - [![launch @ pangeo.org][badge-jupyter-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-dataviz/master?urlpath=tree)
 
 
-#### JupyterLab 
-  
-  - [![launch @ gke.mybinder.org][badge-jupyterlab-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-dataviz/master?urlpath=lab)
-
-  - [![launch @ ovh.mybinder.org][badge-jupyterlab-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-dataviz/master?urlpath=lab)
-
-  - [![launch @ gesis.org][badge-jupyterlab-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-dataviz/master?urlpath=lab)
-
-  - [![launch @ pangeo.io][badge-jupyterlab-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-dataviz/master?urlpath=lab)
       
 #### Rstudio 
   
