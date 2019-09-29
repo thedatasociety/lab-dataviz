@@ -23,20 +23,20 @@
 
 # lab-dataviz
 
-A repository for launching laboratories.
+A repository of laboratories for learning data vizualization concepts and tools.
 
 ## Table of contents
 
 <!-- MarkdownTOC autolink=true -->
 
-- [Launching this laboratory on a binderhub instance](#launching-this-laboratory-on-a-binderhub-instance)
+- [Launching this repository of laboratories on a binderhub instance](#launching-this-repository-of-laboratories-on-a-binderhub-instance)
   - [JupyterLab](#jupyterlab)
   - [Jupyter](#jupyter)
   - [Rstudio](#rstudio)
   - [Shiny](#shiny)
   - [Nteract](#nteract)
   - [Stencila](#stencila)
-- [Launch this laboratory locally using Docker](#launch-this-laboratory-locally-using-docker)
+- [Launch this repository of laboratories locally using Docker](#launch-this-repository-of-laboratories-locally-using-docker)
   - [Via our Docker image](#via-our-docker-image)
   - [Via repo2docker](#via-repo2docker)
   - [Accessing your Docker container](#accessing-your-docker-container)
@@ -46,7 +46,7 @@ A repository for launching laboratories.
 <!-- /MarkdownTOC -->
 
 
-### Launching this laboratory on a [binderhub](https://github.com/jupyterhub/binderhub) instance
+### Launching this repository of laboratories on a [binderhub](https://github.com/jupyterhub/binderhub) instance
 
 [Binderhub](https://github.com/jupyterhub/binderhub) uses [repo2docker](https://github.com/jupyter/repo2docker) for launching and serving the computational environments. Repo2docker supports the following interfaces: 
 - [Jupyter](https://jupyter.org/)
@@ -62,7 +62,7 @@ The list below contains the known binderhub instances.
 - [binder.gesis.org](binder.gesis.org)
 - [binder.pangeo.io](binder.pangeo.io)
 
-The list below provides the badges and the hyperlinks for launching one of the specific interfaces in one of the binderhub instances.
+The list below provides the badges and the hyperlinks for launching one of the specific interfaces in one of the binderhub instances. Choose one and click on the badges.
     
 
 #### JupyterLab 
@@ -131,7 +131,7 @@ The list below provides the badges and the hyperlinks for launching one of the s
 
   - [![launch @ pangeo.io][badge-stencila-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-dataviz/master?urlpath=stencila)
 
-### Launch this laboratory locally using Docker
+### Launch this repository of laboratories locally using Docker
 
 We offer here two options for launching this lab locally: via our Docker image or via repo2docker.
 Before firing up your container, make sure your local user is in the `docker` group. Please refer to this Docker [documentation](https://docs.docker.com/install/linux/linux-postinstall/) for more details. **It is strongly advised to not to run the container as root**. 
