@@ -29,14 +29,15 @@ A repository of laboratories for learning data vizualization concepts and tools.
 
 <!-- MarkdownTOC autolink=true -->
 
-- [Launching this repository of laboratories on a binderhub instance](#launching-this-repository-of-laboratories-on-a-binderhub-instance)
+- [Launching this repository of labs on a binderhub instance](#launching-this-repository-of-labs-on-a-binderhub-instance)
   - [JupyterLab](#jupyterlab)
   - [Jupyter](#jupyter)
   - [Rstudio](#rstudio)
   - [Shiny](#shiny)
   - [Nteract](#nteract)
   - [Stencila](#stencila)
-- [Launch this repository of laboratories locally using Docker](#launch-this-repository-of-laboratories-locally-using-docker)
+- [Launching this repository of labs on a Google Colaboratory session](#launching-this-repository-of-labs-on-a-google-colaboratory-session)
+- [Launching this repository of labs locally using Docker](#launching-this-repository-of-labs-locally-using-docker)
   - [Via our Docker image](#via-our-docker-image)
   - [Via repo2docker](#via-repo2docker)
   - [Accessing your Docker container](#accessing-your-docker-container)
@@ -46,7 +47,7 @@ A repository of laboratories for learning data vizualization concepts and tools.
 <!-- /MarkdownTOC -->
 
 
-### Launching this repository of laboratories on a [binderhub](https://github.com/jupyterhub/binderhub) instance
+### Launching this repository of labs on a [binderhub](https://github.com/jupyterhub/binderhub) instance
 
 [Binderhub](https://github.com/jupyterhub/binderhub) uses [repo2docker](https://github.com/jupyter/repo2docker) for launching and serving the computational environments. Repo2docker supports the following interfaces: 
 - [Jupyter](https://jupyter.org/)
@@ -78,7 +79,7 @@ The list below provides the badges and the hyperlinks for launching one of the s
 
 #### Jupyter 
   
-  - [![launch @ gke.mybinder.org][badge-jupyter-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-dataviz/master?urlpath=tree)
+  - [![launch @ gke.mybinder.org][badge-jupyter-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-dataviz/master?urlpath=tree) 
 
   - [![launch @ ovh.mybinder.org][badge-jupyter-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-dataviz/master?urlpath=tree)
 
@@ -125,13 +126,18 @@ The list below provides the badges and the hyperlinks for launching one of the s
   
   - [![launch @ gke.mybinder.org][badge-stencila-gke-mybinder-org]](https://gke.mybinder.org/v2/gh/thedatasociety/lab-dataviz/master?urlpath=stencila)
 
-  - [![launch @ ovh.mybinder.org][badge-stencila-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-dataviz/master?urlpath=stencila)
+  - [![launch @ ovh.mybinder.org][badge-stencila-ovh-mybinder-org]](https://ovh.mybinder.org/v2/gh/thedatasociety/lab-dataviz/master?urlpath=stencila) 
 
   - [![launch @ gesis.org][badge-stencila-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-dataviz/master?urlpath=stencila)
 
   - [![launch @ pangeo.io][badge-stencila-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-dataviz/master?urlpath=stencila)
 
-### Launch this repository of laboratories locally using Docker
+### Launching this repository of labs on a [Google Colaboratory](https://colab.research.google.com) session
+
+[![Binder](https://camo.githubusercontent.com/52feade06f2fecbf006889a904d221e6a730c194/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/github/thedatasociety/lab-dataviz)
+
+
+### Launching this repository of labs locally using Docker
 
 We offer here two options for launching this lab locally: via our Docker image or via repo2docker.
 Before firing up your container, make sure your local user is in the `docker` group. Please refer to this Docker [documentation](https://docs.docker.com/install/linux/linux-postinstall/) for more details. **It is strongly advised to not to run the container as root**. 
