@@ -1,0 +1,24 @@
+ version: '3'
+ services:
+
+  grafana:
+   image: grafana/grafana
+   ports:
+     - 3000:3000/tcp
+   environment:
+     - GF_INSTALL_PLUGINS=grafana-clock-panel,briangann-gauge-panel,natel-plotly-panel,grafana-simple-json-datasource
+
+
+  influxdb:
+   image: influxdb:latest
+   container_name: influxdb
+   ports:
+     - "8083:8083"
+     - "8086:8086"
+     - "8090:8090"
+
+ # telegraf:
+ #  image: telegraf:latest
+ #  container_name: telegraf
+ #  links:
+ #    - influxdb
