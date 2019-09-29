@@ -21,5 +21,27 @@ RISE
 jupyter-server-proxy
 
 ###############################################################
-#          /jupyter/jupyterlab extensions/kernels              #
+#          /jupyter/jupyterlab extensions/kernels             #
 ###############################################################
+
+
+# data 
+pandas
+numpy
+
+# data management/versioning
+quilt
+
+# http tools
+requests
+
+# data viz
+matplotlib
+plotly
+seaborn
+bs4
+bokeh
+
+# machine learning
+scikit-learn
+scipy
