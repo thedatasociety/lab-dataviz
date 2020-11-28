@@ -34,10 +34,10 @@
 # Plotly Jupyter Lab extension
 # jupyter labextension install @jupyterlab/plotly-extension --no-build 
 # JupyterLab renderer support
-jupyter labextension install jupyterlab-plotly
+jupyter labextension install jupyterlab-plotly --no-build 
 
 # OPTIONAL: Jupyter widgets extension
-jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget
+jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget --no-build 
 
 # Table of contents Jupyter Lab Extension
 # jupyter labextension install @jupyterlab/toc --no-build 
