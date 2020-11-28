@@ -22,10 +22,10 @@
 # jupyter serverextension enable --py jupyterlab_iframe 
 
 # Github Jupyter Lab extension
-# jupyter labextension install @jupyterlab/github --no-build 
+jupyter labextension install @jupyterlab/github --no-build 
 
 # Draw.io Jupyter Lab extension
-# jupyter labextension install jupyterlab-drawio --no-build 
+jupyter labextension install jupyterlab-drawio --no-build 
 
 # Rise Jupyter extension (presentation mode)
 # jupyter-nbextension install rise --py --sys-prefix
