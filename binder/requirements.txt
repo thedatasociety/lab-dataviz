@@ -10,7 +10,7 @@ sos
 sos-notebook
 
 #jupyter/jupyterlab extensions
-jupyterlab
+jupyterlab==2.2.0
 jupyter_contrib_nbextensions
 jupyterlab_launcher
 jupyterlab-git
