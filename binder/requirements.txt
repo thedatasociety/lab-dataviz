@@ -10,10 +10,9 @@
 # sos-notebook
 
 #jupyter/jupyterlab extensions
-jupyterlab
+# jupyterlab
 # jupyterlab-git
-ipywidgets
-RISE
+# RISE
 
 # jupyter-server-proxy
 
@@ -27,17 +26,18 @@ pandas
 numpy
 
 # data management/versioning
-quilt
+# quilt
 
 # http tools
 requests
 
 # data viz
 matplotlib
-plotly
 seaborn
 bs4
 bokeh
+plotly
+ipywidgets
 
 # machine learning
 scikit-learn

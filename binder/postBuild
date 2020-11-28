@@ -22,20 +22,25 @@
 # jupyter serverextension enable --py jupyterlab_iframe 
 
 # Github Jupyter Lab extension
-jupyter labextension install @jupyterlab/github --no-build 
+# jupyter labextension install @jupyterlab/github --no-build 
 
 # Draw.io Jupyter Lab extension
-jupyter labextension install jupyterlab-drawio --no-build 
+# jupyter labextension install jupyterlab-drawio --no-build 
 
 # Rise Jupyter extension (presentation mode)
-jupyter-nbextension install rise --py --sys-prefix
-jupyter-nbextension enable  rise --py --sys-prefix
+# jupyter-nbextension install rise --py --sys-prefix
+# jupyter-nbextension enable  rise --py --sys-prefix
 
 # Plotly Jupyter Lab extension
-jupyter labextension install @jupyterlab/plotly-extension --no-build 
+# jupyter labextension install @jupyterlab/plotly-extension --no-build 
+# JupyterLab renderer support
+jupyter labextension install jupyterlab-plotly
+
+# OPTIONAL: Jupyter widgets extension
+jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget
 
 # Table of contents Jupyter Lab Extension
-jupyter labextension install @jupyterlab/toc --no-build 
+# jupyter labextension install @jupyterlab/toc --no-build 
 
 # Jupyter/Jupyterlab extension for proxying internal applications
 # jupyter serverextension enable --sys-prefix jupyter_server_proxy
