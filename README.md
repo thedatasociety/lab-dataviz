@@ -49,21 +49,8 @@ A repository of laboratories for learning data vizualization concepts and tools.
 
 ### Launching this repository of labs on a [binderhub](https://github.com/jupyterhub/binderhub) instance
 
-[Binderhub](https://github.com/jupyterhub/binderhub) uses [repo2docker](https://github.com/jupyter/repo2docker) for launching and serving the computational environments. Repo2docker supports the following interfaces: 
-- [Jupyter](https://jupyter.org/)
-- [JupyterLab](https://github.com/jupyterlab/jupyterlab)
-- [Rstudio](https://rstudio.com/)
-- [Nteract](https://nteract.io/)
-- [Shiny](https://shiny.rstudio.com/)
-- [Stencila](https://stenci.la/)
 
-The list below contains the known binderhub instances.
-- [gke.mybinder.org](gke.mybinder.org)
-- [ovh.mybinder.org](ovh.mybinder.org)
-- [binder.gesis.org](binder.gesis.org)
-- [binder.pangeo.io](binder.pangeo.io)
-
-The list below provides the badges and the hyperlinks for launching one of the specific interfaces in one of the binderhub instances. Choose one and click on the badges.
+The list below provides badges/hyperlinks for launching specific UIs in one of the binderhub instances. Choose one and click on the badges.
     
 
 #### JupyterLab 
@@ -131,6 +118,22 @@ The list below provides the badges and the hyperlinks for launching one of the s
   - [![launch @ gesis.org][badge-stencila-gesis-org]](https://notebooks.gesis.org/binder/v2/gh/thedatasociety/lab-dataviz/master?urlpath=stencila)
 
   - [![launch @ pangeo.io][badge-stencila-pangeo-io]](https://binder.pangeo.io/v2/gh/thedatasociety/lab-dataviz/master?urlpath=stencila)
+
+**About:**
+
+[Binderhub](https://github.com/jupyterhub/binderhub) uses [repo2docker](https://github.com/jupyter/repo2docker) for launching and serving the computational environments. Repo2docker supports the following interfaces: 
+- [Jupyter](https://jupyter.org/)
+- [JupyterLab](https://github.com/jupyterlab/jupyterlab)
+- [Rstudio](https://rstudio.com/)
+- [Nteract](https://nteract.io/)
+- [Shiny](https://shiny.rstudio.com/)
+- [Stencila](https://stenci.la/)
+
+List of known binderhub instances.
+- [gke.mybinder.org](gke.mybinder.org)
+- [ovh.mybinder.org](ovh.mybinder.org)
+- [binder.gesis.org](binder.gesis.org)
+- [binder.pangeo.io](binder.pangeo.io)
 
 ### Launching this repository of labs on a [Google Colaboratory](https://colab.research.google.com) session
 
